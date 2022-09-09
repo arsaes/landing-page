@@ -92,9 +92,68 @@ button {
 
 .info {
     text-align: center;
+    margin-bottom: 76px;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 48px;
 }
 
 .deck {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.card {
+    flex: 0 1 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    object-fit: cover;
+    width: 164px;
+    height: 164px;
+    margin-bottom: 8px;
+}
+
+.card div {
+    text-align: justify;
+    text-align-last: center;
+    text-justify: inter-word;
+    font-size: 18px;
+    color: #414e61;
+    width: 164px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 400px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote div {
+    width: 800px;
+}
+
+.quote em {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote .author {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 510;
+    text-align: right;
 }
