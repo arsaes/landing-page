@@ -46,10 +46,11 @@ button {
 }
 
 .hero {
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 8em;
+    padding-bottom: 8em;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 3em;
 }
 
@@ -63,12 +64,15 @@ button {
 }
 
 .hero-img {
-    background-color: rgb(64, 64, 143);
+    object-fit: cover;
+    height: 250px;
+    width: 0;
 }
 
-.hero .title {
+.hero h1 {
     font-size: 48px;
     font-weight: 900;
+    margin-top: 0;
     margin-bottom: 8px;
 }
 
@@ -84,4 +88,13 @@ button {
     font-weight: 550;
     background-color: #3882F6;
     border-radius: 8px;
+}
+
+.info {
+    text-align: center;
+}
+
+.deck {
+    display: flex;
+    justify-content: center;
 }
