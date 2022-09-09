@@ -158,6 +158,45 @@ button {
     text-align: right;
 }
 
+.signup {
+    display: flex;
+    height: 350px;
+    align-items: center;
+}
+
+.window {
+    flex: 1;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+    border-radius: 8px;
+}
+
+.window h3,
+.window p {
+    margin: 0;
+    
+}
+
+.window h3 {
+    color: #F9FAF8;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.window p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+
+.window button {
+    border: 2px solid;
+    border-color: #F9FAF8;
+}
+
 
 
 
